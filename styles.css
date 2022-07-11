@@ -1,0 +1,86 @@
+.bodymain{
+    margin: 30px 0px;
+    min-height: 50vh;
+}
+
+.main-service-section .service-items{
+    margin: 20px;
+}
+
+.service-item{
+    min-height: 50px;
+    width: 90%;
+    /* min-width: 300px; */
+    /* border: 1px solid red; */
+    background-color: #e53e58;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: white;
+    
+}
+
+.service-item:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.custom-shype{
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #e53e58;
+    border-right: 10px solid transparent;
+}
+
+.active-custom-shype{
+    height: 50px;
+    width: 5px;
+    border-radius: 20px;
+    background-color: #3262F2;
+}
+
+.service-body{
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.service-body h3{
+    text-align: center;
+    border-bottom: 2px solid #e53e58;
+    padding-bottom: 10px;
+}
+
+.text-body {
+    padding: 20px;
+}
+
+.service-banner {
+    padding: 100px 0 120px 0;
+    background-image: url("/assets/pexels-alesia-kozik-7069395.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+.contact-box li{
+    margin: 20px;
+}
+
+.contact-box{
+    /* border: 1px solid red; */
+    background-color: #f8f8f8;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.submit-btn{
+    cursor: pointer;
+}
+
+
+.donate-banner {
+    padding: 100px 0 120px 0;
+    background-image: url("/assets/pexels-antoni-shkraba-7345444.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
